@@ -1,0 +1,44 @@
+.body{
+    background-color: #61b0cd;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+   
+}
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+}
+main{
+    text-align: center;
+}
+nav ul li {
+    position: relative;
+    font-size: 20px;
+    border-radius: 20px;
+    
+}
+
+nav ul li a {
+    padding: 10px;
+    display: block;
+    color: #148c91;
+    text-decoration: none;
+    
+}
+
+.logo{
+    display: flex;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 20PX;
+    margin-bottom: 10px;
+}
